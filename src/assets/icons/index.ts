@@ -1,16 +1,16 @@
-import arrowRight from "@/assets/icons";
+import arrowRight from "./arrow-right.svg";
 
-import { chevronLeft } from "@/assets/icons";
-import { cheveronRight } from "@/assets/icons";
-import { copyrightSign } from "@/assets/copyright-sign.svg";
-import { facebook } from "@/assets/facebook.svg";
-import { hamburger } from "@/assets/hamburger.svg";
-import instagram from "@/assets/instagram.svg";
-import support from "@/assets/support.svg";
-import shieldTick from "@/assets/shield-tick.svg";
-import star from "@/assets/star.svg";
-import truckFast from "@assets/truck-fast.svg";
-import twitter from ".";
+import chevronLeft from "./chevron-left.svg";
+import cheveronRight from "./chevron-right.svg";
+import copyrightSign from "./copyright-sign.svg";
+import facebook from "./facebook.svg";
+import hamburger from "./hamburger.svg";
+import instagram from "./instagram.svg";
+import support from "./support.svg";
+import shieldTick from "./shield-tick.svg";
+import star from "./star.svg";
+import truckFast from "./truck-fast.svg";
+import twitter from "./twitter.svg";
 
 export {
   arrowRight,
