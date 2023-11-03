@@ -16,10 +16,30 @@ import {
   shoe5,
   shoe6,
   shoe7,
+  shoe4_1,
+  shoe4_2,
+  shoe4_3,
+  shoe4_4,
+  shoe5_1,
+  shoe5_2,
+  shoe5_3,
+  shoe5_4,
+  shoe6_1,
+  shoe6_2,
+  shoe6_3,
+  shoe6_4,
+  shoe7_1,
+  shoe7_2,
+  shoe7_3,
+  shoe7_4,
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
 } from "../assets/images";
+
+// import {
+//   2,3,4,5
+// } from "../assets/images/shoe4";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -51,24 +71,45 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
+    id: 1,
+    imgURLs: [shoe4_1, shoe4_2, shoe4_3, shoe4_4],
     productName: "Nike Air Jordan-01",
     price: "$200.20",
+    sizes: ["37", "38", "40", "42", "44", "46"],
+    description:
+      "The classic Nike Air Jordan-01 in various sizes. Step up your game with the Nike Air Jordan-001 in various sizes. PAYING HOMAGE TO ATTITUDE. Celebrating the 25th anniversary of theAir Max 95, the Nike Air Max ZM950 warps the OG's iconic sidepanels, adds fully visible Nike Air cushioning and boasts bold,expressive colours—it's untouchable, confident and tough. BenefitsThe design, inspired by the Air Max 95 with elements symbolising thehuman body, now enters a modern space with distorted lines, bold TPUaccents and lightweight no-sew skins. The bold colours mix edginessand fun. New webbing runs down the sides, adding structure andsupport while creating a distinctly new look. The highlighted Aircushioning in the heel is the same as the 270 and combines with ZoomAir in the forefoot, adding the perfect amount of flash to yoursoft, springy ride. The sleek design nods to the sporty Air Maxpantheon while maintaining a boldly fresh and futuristic appearance.",
+    rating: 5.0,
   },
   {
-    imgURL: shoe5,
+    id: 2,
+    imgURLs: [shoe5_1, shoe5_2, shoe5_3, shoe5_4],
     productName: "Nike Air Jordan-10",
+
     price: "$210.20",
+    sizes: ["37", "38", "39", "42", "44", "46"],
+    description:
+      "Upgrade your style with the Nike Air Jordan-10 in various sizes. Step up your game with the Nike Air Jordan-001 in various sizes. PAYING HOMAGE TO ATTITUDE. Celebrating the 25th anniversary of theAir Max 95, the Nike Air Max ZM950 warps the OG's iconic sidepanels, adds fully visible Nike Air cushioning and boasts bold,expressive colours—it's untouchable, confident and tough. BenefitsThe design, inspired by the Air Max 95 with elements symbolising thehuman body, now enters a modern space with distorted lines, bold TPUaccents and lightweight no-sew skins. The bold colours mix edginessand fun. New webbing runs down the sides, adding structure andsupport while creating a distinctly new look. The highlighted Aircushioning in the heel is the same as the 270 and combines with ZoomAir in the forefoot, adding the perfect amount of flash to yoursoft, springy ride.",
+    rating: 4.7,
   },
   {
-    imgURL: shoe6,
+    id: 3,
+    imgURLs: [shoe6_1, shoe6_2, shoe6_3, shoe6_4],
     productName: "Nike Air Jordan-100",
     price: "$220.20",
+    sizes: ["37", "38", "40", "41", "42", "43", "45"],
+    description:
+      " PAYING HOMAGE TO ATTITUDE. Celebrating the 25th anniversary of theAir Max 95, the Nike Air Max ZM950 warps the OG's iconic sidepanels, adds fully visible Nike Air cushioning and boasts bold,expressive colours—it's untouchable, confident and tough. BenefitsThe design, inspired by the Air Max 95 with elements symbolising thehuman body, now enters a modern space with distorted lines, bold TPUaccents and lightweight no-sew skins. The bold colours mix edginessand fun. New webbing runs down the sides, adding structure andsupport while creating a distinctly new look. The highlighted Aircushioning in the heel is the same as the 270 and combines with ZoomAir in the forefoot, adding the perfect amount of flash to yoursoft, springy ride. The sleek design nods to the sporty Air Maxpantheon while maintaining a boldly fresh and futuristic appearance.",
+    rating: 4.8,
   },
   {
-    imgURL: shoe7,
+    id: 4,
+    imgURLs: [shoe7_1, shoe7_2, shoe7_3, shoe7_4],
     productName: "Nike Air Jordan-001",
     price: "$230.20",
+    sizes: ["37", "38", "40", "41", "44", "46"],
+    description:
+      "Step up your game with the Nike Air Jordan-001 in various sizes. PAYING HOMAGE TO ATTITUDE. Celebrating the 25th anniversary of theAir Max 95, the Nike Air Max ZM950 warps the OG's iconic sidepanels, adds fully visible Nike Air cushioning and boasts bold,expressive colours—it's untouchable, confident and tough. BenefitsThe design, inspired by the Air Max 95 with elements symbolising thehuman body, now enters a modern space with distorted lines, bold TPUaccents and lightweight no-sew skins. The bold colours mix edginessand fun. New webbing runs down the sides, adding structure andsupport while creating a distinctly new look. The highlighted Aircushioning in the heel is the same as the 270 and combines with ZoomAir in the forefoot, adding the perfect amount of flash to yoursoft, springy ride. The sleek design nods to the sporty Air Maxpantheon while maintaining a boldly fresh and futuristic appearance.",
+    rating: 4.9,
   },
 ];
 
