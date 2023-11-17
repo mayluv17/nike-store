@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { shoes } from "../constants";
 import { Button, ShoeCard } from "../components";
 import { MdOutlineDeliveryDining } from "react-icons/md";
@@ -10,6 +10,7 @@ import SizePill from "../components/SizePill";
 import { useParams } from "react-router";
 import { products } from "../constants";
 import ProductPageShoeSlider from "../components/ProductPageShoeSlider";
+import { Context } from "../context/context";
 
 export interface singleProductType {
   id: number;
@@ -21,9 +22,10 @@ export interface singleProductType {
   rating?: number;
 }
 const ProductPage = () => {
+  const { toggleCart, cartItems } = useContext(Context);
   const { id: productId } = useParams();
   const [bigShoeImg, setBigShoeImg] = useState<string>(bigShoe1);
-  const [selectedSize, setSelectedSize] = useState<string>("47");
+  const [selectedSize, setSelectedSize] = useState<string>();
   const [singleProduct, setSingleProduct] = useState<singleProductType>();
 
   useEffect(() => {
@@ -120,6 +122,7 @@ const ProductPage = () => {
             label={"add to cart"}
             textColor={"text-white"}
             fullWidth={true}
+            onClick={() => toggleCart(productId)}
           />
         </div>
       </section>

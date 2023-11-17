@@ -28,7 +28,11 @@ const MobileMenu = ({ navLinks }: MobileMenuProps) => {
       </li>
       <li>
         <a className="flex items-center gap-2 font-montserrat leading-normal text-lg text-slate-gray">
-          <AiOutlineShoppingCart /> Cart
+          <div className="relative">
+            <AiOutlineShoppingCart />
+            <div className="absolute rounded top-0 right-[-3px] w-[3px] h-[3px] bg-red-500"></div>
+          </div>
+          Cart
         </a>
       </li>
     </ul>
